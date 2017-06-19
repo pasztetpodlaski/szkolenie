@@ -10,8 +10,31 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        <form action="index.php" method="post">
+            liczba:<input type="text" name="liczba">
+            <input type="submit">
+        </form>
         <?php
-        echo'lubie placki';//wow dopisane tak bardzo
+        
+        echo'zad1';//wow dopisane tak bardzo
+        
+        $liczba=$_POST["liczba"];
+        
+        if($liczba==1)
+        {
+            echo 'sztuka';
+        }
+        else if($liczba>=2 && $liczba<5)
+        {
+            echo 'sztuki';
+        }
+        else
+        echo 'sztuk';
+        
+   
+            
+      
+        
         ?>
     </body>
 </html>
