@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        
+        echo'lubie placki';//wow dopisane tak bardzo
         ?>
     </body>
 </html>
