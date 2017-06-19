@@ -7,6 +7,9 @@ and open the template in the editor.
 <?php
 // Start the session
 session_start();
+$cookie_name = "szkolenie";
+$cookie_value = "ProjektTestowy";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
 ?>
 <html>
     <head>
